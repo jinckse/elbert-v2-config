@@ -89,12 +89,3 @@ The modified script has been tested with a Numato Elbert V2 board. The configura
 - Preserve the original script's copyright and license notices.
 
 - Check the original script's license terms before redistributing modified versions.
-
-
-
-## License
-
-
-
-Refer to the original configuration script's license and distribution terms. No additional license is implied by this repository.
-
