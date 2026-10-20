@@ -1,4 +1,4 @@
-\# Numato Elbert V2 Configuration Tool
+# Numato Elbert V2 Configuration Tool
 
 
 
@@ -6,21 +6,21 @@ A Python utility for programming the SPI flash on the Numato Lab Elbert V2 FPGA 
 
 
 
-\## Requirements
+## Requirements
 
 
 
-\- Numato Elbert V2 FPGA development board
+- Numato Elbert V2 FPGA development board
 
-\- Linux system with access to the board's serial device
+- Linux system with access to the board's serial device
 
-\- Python 2.6-compatible environment for the modified script
+- Python 2.6-compatible environment for the modified script
 
-\- PySerial 2.7
+- PySerial 2.7
 
 
 
-\## Installation
+# Installation
 
 
 
@@ -36,17 +36,17 @@ Verify that the serial module is available:
 
 
 
-\## Usage
+## Usage
 
 
 
-1\. Connect the Elbert V2 board to the computer.
+1. Connect the Elbert V2 board to the computer.
 
-2\. Identify its serial device. On Linux, it may appear as `/dev/ttyACM0`.
+2. Identify its serial device. On Linux, it may appear as `/dev/ttyACM0`.
 
-3\. Build your FPGA design in Xilinx ISE and locate the generated bitstream.
+3. Build your FPGA design in Xilinx ISE and locate the generated bitstream.
 
-4\. Run the configuration utility with the serial device and bitstream paths:
+4. Run the configuration utility with the serial device and bitstream paths:
 
 
 
@@ -58,7 +58,7 @@ Replace `/dev/ttyACM0` and `/path/to/bitstream.bin` with the appropriate paths f
 
 
 
-\## Compatibility
+## Compatibility
 
 
 
@@ -70,7 +70,7 @@ Compatibility changes include handling byte-string indexing in Python 2, flushin
 
 
 
-\## Verification
+## Verification
 
 
 
@@ -78,21 +78,21 @@ The modified script has been tested with a Numato Elbert V2 board. The configura
 
 
 
-\## Notes
+## Notes
 
 
 
-\- Programming the SPI flash changes the configuration stored on the board.
+- Programming the SPI flash changes the configuration stored on the board.
 
-\- Confirm that the bitstream is built for the correct FPGA and board.
+- Confirm that the bitstream is built for the correct FPGA and board.
 
-\- Preserve the original script's copyright and license notices.
+- Preserve the original script's copyright and license notices.
 
-\- Check the original script's license terms before redistributing modified versions.
+- Check the original script's license terms before redistributing modified versions.
 
 
 
-\## License
+## License
 
 
 
