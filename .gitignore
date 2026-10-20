@@ -1,0 +1,7 @@
+*.bin
+*.bit
+*.mcs
+*.log
+*.jou
+__pycache__/
+*.pyc
